@@ -1,17 +1,24 @@
-# WebRTC 点对点视频监控
+[中文](README_CN.md)
 
-基于 WebRTC 的简易点对点单向视频监控系统，
+# WebRTC peer-to-peer video surveillance
 
-- 打开网页后，选择拍摄或查看。
-- 选择拍摄后，打开本地摄像头，开始传输视频流。
-- 另一端选择查看后，开始接收视频流。
-- 只能单向实现视频传输，类似于监控摄像。
-- 基于 WebRTC 实现点对点通讯，视频流不经过服务器传输，直接在浏览器之间传输。
-- 当 2 端不在同一局域网时，可能无法实现视频传输。
+Simple p2p one-way WebCam surveillance system based on WebRTC
 
-# 背景
+- After opening the webpage, choose to shoot or view.
 
-- 当你需要照看但又不得不短暂离开时，如果你刚好有 2 个手机，你可以使用这个应用。
+- After choosing to shoot, open the local camera and start transmitting the video stream.
+
+- After the other end chooses to view, it starts receiving the video stream.
+
+- Video transmission can only be achieved in one direction, similar to surveillance cameras.
+
+- Based on WebRTC, peer-to-peer communication is achieved. The video stream is not transmitted through the server, but directly transmitted between browsers.
+
+- When the two ends are not in the same LAN, video transmission may not be achieved.
+
+# Background
+
+- When you need to look after but have to leave for a short time, if you happen to have 2 mobile phones, you can use this application.
 
 # run
 
