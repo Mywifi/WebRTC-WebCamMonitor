@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+}
+.btn-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.title {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 60px;
+}
+.btn-box {
+  margin: 15px 0;
+}
+a.btn {
+  display: block;
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  font-size: 60px;
+  text-align: center;
+  font-family: monospace;
+  background-color: #f0f0f0;
+  padding: 2px 5px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  color: #333;
+}
+a.btn:visited {
+  color: #333;
+}
+.back {
+  margin-top: 40px;
+  font-size: 40px;
+}
+.back a {
+  text-decoration: underline;
+}
+.back a:visited {
+  color: #333;
+}
+video {
+  width: 100%;
+  max-width: 720px;
+}
