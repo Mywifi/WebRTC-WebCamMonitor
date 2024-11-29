@@ -1,17 +1,16 @@
 import { io } from "socket.io-client";
 import "./style.css";
-// 全局变量
+
 let localStream;
 let peerConnection;
 const localVideo = document.getElementById("localVideo");
-// 生成一个随机id
-// const userId = Math.random().toString(36).substring(2);
+
 function log(text) {
   var time = new Date();
 
   console.log("[" + time.toLocaleTimeString() + "] " + text);
 }
-// 连接信令服务器
+
 function addTrack() {
   // 将本地媒体流添加到对等连接中
   if (peerConnection && localStream) {
