@@ -1,8 +1,7 @@
 [中文](README_CN.md)
 
-# WebRTC peer-to-peer video surveillance
-
-Simple p2p one-way WebCam surveillance system based on WebRTC
+# WebRTC p2p video monitoring page
+Simple p2p one-way WebCam monitoring page based on WebRTC
 
 - After opening the webpage, choose to shoot or view.
 
@@ -10,9 +9,9 @@ Simple p2p one-way WebCam surveillance system based on WebRTC
 
 - After the other end chooses to view, it starts receiving the video stream.
 
-- Video transmission can only be achieved in one direction, similar to surveillance cameras.
+- Video transmission can only be achieved in one direction, similar to monitoring cameras.
 
-- Based on WebRTC, peer-to-peer communication is achieved. The video stream is not transmitted through the server, but directly transmitted between browsers.
+- Based on WebRTC, p2p communication is achieved. The video stream is not transmitted through the server, but directly transmitted between browsers.
 
 - When the two ends are not in the same LAN, video transmission may not be achieved.
 
