@@ -1,6 +1,6 @@
 import { io } from "socket.io-client";
 import "./style.css";
-// 全局变量
+
 let peerConnection;
 function log(text) {
   var time = new Date();
@@ -94,11 +94,11 @@ function handleSignalingMessage(message) {
   }
 }
 
-// 初始化函数
+
 function init() {
   createPeerConnection();
   connectSignalingServer();
 }
 
-// 页面加载完成后执行初始化
+
 window.onload = init;
